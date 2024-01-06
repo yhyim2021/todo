@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.darklight {
+  cursor: pointer;
+  text-align: center;
+}
+.darklight:hover * {
+  font-size: 1.5rem;
+  background-color: lightgreen;
+  border-radius: 1rem;
+}
+
+.status li {
+  display: inline;
+  margin: 0.5rem;
+  user-select: none;
+  cursor: pointer;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.status li:hover {
+  background-color: lightgreen;
+}

@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+.item_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.item_container:hover {
+  background-color: lightgreen;
+  border-radius: 0.5rem;
+}
+
+.checkbox,
+.item,
+.trash {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.trash {
+  background-color: transparent;
+}
+.trashcan {
+  color: gray;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.trash:hover .trashcan {
+  transform: scale(2);
+  color: lightcoral;
+  background-color: lightgreen;
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+}

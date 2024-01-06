@@ -1,0 +1,8 @@
+.main {
+  margin: 2rem 0;
+}
+.completed {
+  text-decoration: line-through;
+  color: lightcoral;
+  font-weight: 1000;
+}
