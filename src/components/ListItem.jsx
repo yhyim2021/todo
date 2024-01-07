@@ -27,8 +27,6 @@ export default function ListItem({
         } else {
           draft[state].splice(index, 1);
           draft.all = draft.all.filter((todo) => todo !== item);
-          // const findIndex = draft.all.findIndex((todo) => todo === item);
-          // draft.all.splice(findIndex, 1);
         }
         localStorage.setItem("initialState", JSON.stringify(draft));
       });

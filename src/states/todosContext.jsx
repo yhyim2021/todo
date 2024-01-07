@@ -1,11 +1,5 @@
-import React, { createContext, useState } from "react";
+import React, { createContext } from "react";
 import { useImmer } from "use-immer";
-
-// export const initialState = {
-//   all: ["공부하기", "밥 먹기", "운동하기", "영화 보기"],
-//   active: ["공부하기", "운동하기"],
-//   completed: ["밥 먹기", "영화 보기"],
-// };
 
 export const initialState = {
   all: [],

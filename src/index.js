@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import style from "./index.module.css";
+import "./index.module.css";
 import App from "./App";
 import DarkLightContextProvider from "./states/darkLightContext";
 import StateContextProvider from "./states/stateContext";
