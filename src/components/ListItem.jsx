@@ -30,6 +30,7 @@ export default function ListItem({
           // const findIndex = draft.all.findIndex((todo) => todo === item);
           // draft.all.splice(findIndex, 1);
         }
+        localStorage.setItem("initialState", JSON.stringify(draft));
       });
     }
   };

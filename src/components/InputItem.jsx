@@ -16,6 +16,7 @@ export default function InputItem() {
       if (draft["all"].includes(newItem) !== true) {
         draft.all.push(newItem);
         draft.active.push(newItem);
+        localStorage.setItem("initialState", JSON.stringify(draft));
       }
     });
     e.target.firstChild.value = "";
